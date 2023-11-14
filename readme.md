@@ -40,10 +40,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   ![screenshot(s) die een goed beeld geven van de website die je gaat maken]
-  <img src="images/screencapture-gamma-nl-2023-11-14-19_29_47.png" width="375px" alt="smallHome">!
+  <img src="images/screencapture-gamma-nl-2023-11-14-19_29_47.jpg" width="375px" alt="smallHome">!
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  <img src="images/screencapture-gamma-nl-klusadvies-2023-11-14-19_33_18.png" width="375px" alt="smallPage">!
+  <img src="images/screencapture-gamma-nl-klusadvies-2023-11-14-19_33_18.jpg" width="375px" alt="smallPage">!
  
 </details>
 
@@ -97,7 +97,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 ## Voortgang 1 (week 2)
-AFWEZIG
+
 <details>
   <summary>uitwerken voor 1e voortgang</summary>
 
