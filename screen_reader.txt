@@ -1,0 +1,8 @@
+sronly class
+
+.sronly (
+clippatch (red 0,0,0,0);
+position: absolute;
+
+exclusively hidden
+

@@ -1,0 +1,21 @@
+pas alleen class toe als:
+
+- states veranderen
+- secties
+
+body 
+ display flex column
+
+main 
+ flex 1
+
+breakdown schets voor 30-11-2023
+
+slider (carousel)
+scroll snap (zie werkgroep flex)
+
+html structuur
+kopjes
+sections
+
+button aria label

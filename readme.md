@@ -37,13 +37,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je opdracht:
   [](gamma.nl)
-
   #### Screenshot(s) van de eerste pagina (small screen): 
-  ![screenshot(s) die een goed beeld geven van de website die je gaat maken]
-  <img src="images/smallHome.jpg" width="375px" alt="smallHome">!
+  
+  <img src="images/smallHome.png" width="375px" alt="smallHome">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  <img src="images/smallPage.jpg" width="375px" alt="smallPage">!
+  <img src="images/smallPage.png" width="375px" alt="smallPage">
  
 </details>
 
@@ -56,22 +55,27 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-
+  - met nette semantische code kan de screenreader alle relevante html elementen voorlezen
 
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
-
+  - met nette semantische code kan de screenreader alle relevante html elementen voorlezen
   
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  - met keyboard shortcuts zoals de pijltjes toetsen kan een website makkelijk genavigeert worden als de gebruiker niet met een muis kan werken ivm restricties
 
   #### Motoriek (shocks, elastiekjes)
   Hier korte omschrijving (met indien nodig afbeeldingen)
-
+  - met keyboard shortcuts zoals de pijltjes toetsen kan een website makkelijk genavigeert worden als de gebruiker niet met een muis kan werken ivm restricties
+  
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  - met contrast kan er gedacht worden om niet van die velle kleuren te gebruiken sinds iemand met kleurenblindheid bijvoorbeeld het verschil niet zal zien.
+  - speel met contrast, dark/light modes
+  
 
 </details>
 
@@ -83,10 +87,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-
+<img src="images/smallHomeBreakdown.png" width="375px" alt="smallHome">
 
   ### dynamisch deel (bijv menu): 
-
+<img src="images/smallPageBreakdown.png" width="375px" alt="smallHome">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
 
