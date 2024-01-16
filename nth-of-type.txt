@@ -1,0 +1,9 @@
+nth-of-type(1)
+nth-of-child(2)
+nth-of-first
+nth-of-last
+
+etc
+
+
+microintereactie zoals button dat font size van hele website verhoog

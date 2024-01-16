@@ -19,7 +19,7 @@ button:not(disabled) {
   --general-color:#012;
   --general-background:#fff;
   
-  --header-gradient:linear-gradient(#f8a, #fbd);
+/*  --header-gradient:linear-gradient(#f8a, #fbd); */
   
   --menu-gradient:linear-gradient(#8af, #bdf);
   --menu-border:#46f;
@@ -27,7 +27,7 @@ button:not(disabled) {
   --button-color:#fff;
   --button-background:#f46;
   
-  --title-gradient:linear-gradient(#f46 40%, #f8a 80%);
+/*  --title-gradient:linear-gradient(#f46 40%, #f8a 80%); */
 }
 
 
@@ -144,6 +144,15 @@ header > button {
   order:-1;
 }
 
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
+}
 
 /***************/
 /* SLUIT BUTTON */
@@ -219,7 +228,30 @@ nav a.active {
 }
 
 
+section article {
+    display: flex;
+    
+}
 
+section article a img {
+    width: 47.47em;
+    height: 20em;
+}
+
+article:nth-of-type(1) {
+    width: 94.89em;
+    height: 20em;
+}
+
+article a img {
+    width: 94.89em;
+    height: 20em;
+}
+
+section:nth-of-type(2) {
+    width: 47.47em;
+    height: 20em;
+}
 
 
 /****************************************************************/

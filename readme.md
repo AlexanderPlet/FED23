@@ -52,7 +52,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details>
   <summary>uitwerken na test in de werkgroep</summary>
-
+ 
+  <p>Niet aanwezig geweest in verband met stage</p>
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
   - met nette semantische code kan de screenreader alle relevante html elementen voorlezen
@@ -107,25 +108,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Had de breakdown alleen voor voortgang 1.
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - gekeken naar de correcte html tags die horen bij welke gedeelte van de website
 
 </details>
 
@@ -140,26 +132,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-  <img src="images/slideShow.png" width="375px" alt="slideShow">!
+  <img src="images/progress%20(2).png" width="375px" alt="progressie">!
+  
+  Heb mijn html code compleet van de homepage, alleen nog stylen met css!
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | ****        | ****       | ****  | ****             | ****           |
-  | ---             | ---            | ---            | --                   | -                      |
-  | HTML Structuur  | HTML Structuur | HTML Structuur | HTML Structuur        | HTML Structuur        | 
-  | ...     | ...    | ... | ...e         | ...        |     
-  | ...             | ...             | ...            | ... |                    |  ...
-  | ...                | ...                | ...               | ...         |  ...                  |
-
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  Tijdens de meeting liet ik zien dat ik de website Gamma heb nagemaakt. Heb alle html content erin zitten, maar het cssen moest nog gebeuren.
+  Ik kreeg te horen dat ik goed opweg was. 
 
 </details>
 
@@ -211,24 +192,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  <img src="images/progress%20(2).png" width="375px" alt="progressie">!
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | Kim          | Thomas         | Niga     | Alexander       |  Ralph
-  | ---          | ---            | ---      | ---             |
-  | ... | ...          | ...   | ... |
-  | ... | ... | ... | ... |
-  | ...          | ...            | ...      | ...             |
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-
+  nth-of-type kan mij helpen met verschillende articles stylen
+  Heb een beter beeld wat ik kan doen voor mijn microinteractie
 
 </details>
-
 
 
 
@@ -269,7 +241,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 2. <a href="http://www.onlinewebfonts.com">oNline Web Fonts</a>
 3. <a href="https://codepen.io/Axiol/pen/QWLRMVr">https://codepen.io/Axiol/pen/QWLRMVr</a>
 4. ...
-5. <a href="twitch.tv"></a>
+5. <a href="gamma.nl"></a>
 6. <a href="https://stackoverflow.com/questions/49934826/how-to-open-sub-menu-with-onclick-function-and-hide-with-onclick-function">https://stackoverflow.com/questions/49934826/how-to-open-sub-menu-with-onclick-function-and-hide-with-onclick-function</a>
 7. <a href="https://stackoverflow.com/questions/39892794/toggle-image-in-pure-javascript">https://stackoverflow.com/questions/39892794/toggle-image-in-pure-javascript</a>
 
