@@ -153,30 +153,45 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na test in 8e werkgroep</summary>
 
+  Met microsoft toegankelijkheids tool beetje lopen spelen.
+
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
-
+  
+  Voortgang van website was niet geweldig dus niet al te veel nuttige info gehaald uit toegankelijkheidstest
+  
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
-
+  
+  screenreader noemt de alt van de images nicely
+  
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
 
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
 
+  Screen reader kon lezen waar ik op klikte
+
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
+  -
 
   #### Motoriek (shocks, elastiekjes)
   Hier korte omschrijving (met indien nodig afbeeldingen)
 
+  nvt
+
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
+  -
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
-
+  
+  site maakt gebruik van blauwe kleuren
+  
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 </details>
@@ -211,19 +226,26 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
-
+  <img src="images/fullPageUitkomst.png" width="375px" alt="gamma">
+  was overnieuw begonnen terwijl ik wat hulp kreeg van een ICT'er
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Geleerd beter te werken met flex
+  Hoe ik SVGs kan ophalen vanuit de website zelf ipv local afbeeldingen steeds te downloaden.
+  <img src="images/SVG.jpeg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  
+  Responsive ging niet al te geweldig
+  nth of type en nth of child moeilijk wanneer te veel genest samen met het geen classes gebruiken heb ik moeten stylen in html ;\
+  alle voorbeelden online maken gebruik van classes en divs 
+  
+  <img src="images/resp1.png" width="375px" alt="actual">
+  <img src="images/respO.png" width="375px" alt="own">
 </details>
 
 
@@ -238,11 +260,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 1. <a href="https://www.w3schools.com/">w3schools</a>
-2. <a href="http://www.onlinewebfonts.com">oNline Web Fonts</a>
+2. <a href="http://www.onlinewebfonts.com">Online Web Fonts</a>
 3. <a href="https://codepen.io/Axiol/pen/QWLRMVr">https://codepen.io/Axiol/pen/QWLRMVr</a>
-4. ...
 5. <a href="gamma.nl"></a>
 6. <a href="https://stackoverflow.com/questions/49934826/how-to-open-sub-menu-with-onclick-function-and-hide-with-onclick-function">https://stackoverflow.com/questions/49934826/how-to-open-sub-menu-with-onclick-function-and-hide-with-onclick-function</a>
 7. <a href="https://stackoverflow.com/questions/39892794/toggle-image-in-pure-javascript">https://stackoverflow.com/questions/39892794/toggle-image-in-pure-javascript</a>
+8. <a href="https://www.youtube.com/watch?v=emFMHH2Bfvo">SVG uitleg</a>
+9. <a href="https://www.youtube.com/watch?v=dMxOojFq2ho">Nth of child en type</a>
+10. <a href="https://www.w3schools.com/cssref/css3_pr_flex-wrap.php"> Flex wrap </a>
 
 </details>

@@ -2,31 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Klusadvies</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="images/logo-preview.png" />
-    <title>Gamma</title>
     <link rel="stylesheet" href="resource/styles.css">
     <script src="resource/main.js"></script>
-
 </head>
 <body>
-
 
 <!--===============================================================-->
 <!--========================== HEADER =============================-->
 <!--===============================================================-->
 <header>
 
-    <nav>
-        <ul>
-            <figure>
+    <nav style="flex-wrap: wrap;">
+        <ul style="flex-wrap: wrap;">
+            <a href="index.html"><figure>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112 40" focusable="false"
                      style="border-radius: 2px;"><title>GAMMA</title>
                     <path fill="#003978" d="M0 0h112v40H0z"></path>
                     <path fill="#FFF"
                           d="M103 27.9H89c-.68 0-1.25-.57-1.25-1.3v-7.98c0-.72.57-1.3 1.26-1.3h6.4v2.64h-3.8v5.3h6.35v-10.6H91.6V12h10.16c.7 0 1.26.6 1.26 1.32v14.6M82.7 12h-14c-.7 0-1.25.6-1.25 1.32v14.6h3.8V14.64h2.55v5.3h2.54v-5.3h2.54V27.9h5.08V13.33c0-.73-.56-1.32-1.26-1.32m-20.33 0h-14c-.68 0-1.25.6-1.25 1.35v14.6h3.8v-13.3h2.55v5.3H56v-5.3h2.54V27.9h5.08V13.33c0-.73-.57-1.32-1.27-1.32M43.3 27.9h-14c-.7 0-1.25-.57-1.25-1.3v-7.98c0-.72.56-1.3 1.26-1.3h6.4v2.64h-3.8v5.3h6.35v-10.6H31.9V12h10.16c.7 0 1.26.6 1.26 1.32v14.6M16.62 17.3v2.66h3.8v5.3H14.1v-10.6h10.17V12h-14c-.7 0-1.25.6-1.25 1.32V26.6c0 .73.56 1.3 1.26 1.3h13.98V17.3h-7.62"></path>
                 </svg>
-            </figure>
+            </figure></a>
             <li>
                 <a onclick="toggleDropdown()" id="assortiment" style="cursor: pointer">Assortiment &#9662;</a>
             </li>
@@ -103,7 +101,7 @@
             </li>
             <li>
                 <a onclick="changeBackground()">
-                     🖌️
+                    🖌️
                 </a>
             </li>
         </ul>
@@ -115,182 +113,172 @@
 
 
 <!--===============================================================-->
-<!--========================== BANNER =============================-->
+<!--======================== CATEGORIES ===========================-->
 <!--===============================================================-->
-<main>
-<h1 class="sr-only">Gamma</h1>    
-<section>
-    <picture>
-        <source srcset="https://images.ctfassets.net/7k5qhlbm8iou/71WtNeehnZ6kUAP1yzruCk/c2100bd860b5002bf7d177e4d948c79c/GNL_wk01_2024_HP_GigaGammaDeal_desktop.png?fm=webp"
-                type="image/webp">
-        <a href="#">
-            <img src="https://images.ctfassets.net/7k5qhlbm8iou/71WtNeehnZ6kUAP1yzruCk/c2100bd860b5002bf7d177e4d948c79c/GNL_wk01_2024_HP_GigaGammaDeal_desktop.png?fm=webp"
-             alt="Giga Gamma Deals">
-        </a>
-    </picture>
-    <a href="https://www.gamma.nl/aanbiedingen-en-acties?a=1" title="Giga Gamma Deals"></a>
+<section style="padding-bottom: 20px; ">
+
+    <section style="padding-bottom: 20px; padding-top: 20px; margin: 0 16%;">
+        <ul style="display: flex;align-items: start; padding: 0; margin: 0; flex-wrap: wrap;">
+            <li style="flex: none; padding: 0;">
+                <a href="index.html">
+                    <span itemprop="name">Home</span>
+                </a>
+            </li>
+            <li style="flex: none">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                     class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                          d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+                </svg>
+            </li>
+            <li>Klusadvies</li>
+        </ul>
+        <strong style="margin: 0 0 0 10px;display: block;">
+            <h2 style="color: black; text-align: left;">Klusadvies</h2>
+        </strong>
+    </section>
+
+    <section style="background-color: #F8F8F8; margin: 0 16%; padding: 20px 0 ">
+        <ul style="display: flex; margin: 10px; padding: 0; vertical-align: top; flex-wrap: wrap;">
+            <li style="margin: 0; padding: 0;">
+                <ul style="margin: 0; padding: 0; display:block;">
+                    <li>
+                        <a href="#" style="color: #003878; margin: 0;">Auto & Fiets</a>
+                    </li>
+                    <li>
+                        <a href="#" style="color: #003878; margin: 0;">Badkamer</a>
+                    </li>
+                    <li>
+                        <a href="#" style="color: #003878; margin: 0;">Behang</a>
+                    </li>
+                    <li>
+                        <a href="#" style="color: #003878; margin: 0;">Daken</a>
+                    </li>
+                    <li>
+                        <a href="#" style="color: #003878; margin: 0;">Deuren</a>
+                    </li>
+                    <li>
+                        <a href="#" style="color: #003878; margin: 0;">Elektra</a>
+                    </li>
+                    <li>
+                        <a href="#" style="color: #003878; margin: 0;">Gereedschap</a>
+                    </li>
+                    <li>
+                        <a href="#" style="color: #003878; margin: 0;">Hout</a>
+                    </li>
+                    <li>
+                        <a href="#" style="color: #003878; margin: 0;">Isolatie</a>
+                    </li>
+                </ul>
+            </li>
+            <li style=" margin: 0; padding: 0;">
+                <ul style="margin: 0; padding: 0; display:block;">
+                    <li>
+                        <a href="#" style="color: #003878; margin: 0;">Keuken</a>
+                    </li>
+                    <li>
+                        <a href="#" style="color: #003878; margin: 0;">Leidingen</a>
+                    </li>
+                    <li>
+                        <a href="#" style="color: #003878; margin: 0;">Meubels</a>
+                    </li>
+                    <li>
+                        <a href="#" style="color: #003878; margin: 0;">Plafonds</a>
+                    </li>
+                    <li>
+                        <a href="#" style="color: #003878; margin: 0;">Raamdecoratie</a>
+                    </li>
+                    <li>
+                        <a href="#" style="color: #003878; margin: 0;">Smart home</a>
+                    </li>
+                    <li>
+                        <a href="#" style="color: #003878; margin: 0;">Tegels</a>
+                    </li>
+                    <li>
+                        <a href="#" style="color: #003878; margin: 0;">Trappen</a>
+                    </li>
+                </ul>
+            </li>
+            <li style=" margin: 0; padding: 0;">
+                <ul style="margin: 0; padding: 0; display:block;">
+                    <li>
+                        <a href="#" style="color: #003878; margin: 0;">Toilet</a>
+                    </li>
+                    <li>
+                        <a href="#" style="color: #003878; margin: 0;">Tuin</a>
+                    </li>
+                    <li>
+                        <a href="#" style="color: #003878; margin: 0;">Veilig wonen</a>
+                    </li>
+                    <li>
+                        <a href="#" style="color: #003878; margin: 0;">Verf</a>
+                    </li>
+                    <li>
+                        <a href="#" style="color: #003878; margin: 0;">Verlichting</a>
+                    </li>
+                    <li>
+                        <a href="#" style="color: #003878; margin: 0;">Verwarming & ventilatie</a>
+                    </li>
+                    <li>
+                        <a href="#" style="color: #003878; margin: 0;">Vloeren</a>
+                    </li>
+                    <li>
+                        <a href="#" style="color: #003878; margin: 0;">Wanden</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
 </section>
 
 
 <!--===============================================================-->
-<!--========================== SEARCH =============================-->
+<!--======================== PHOTO GRID ===========================-->
 <!--===============================================================-->
-<section>
-    <h2>
-        Waar ben je naar op zoek?
-    </h2>
 
-    <form action="#" method="get" style=" width: 98%;
-    max-width: 850px;
-                 margin: 0 auto;">
-        <input type="text" name="search" placeholder="Zoeken naar..." style="
-                width: 100%;">
-        <button type="submit">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250.3 250.3" width="20" height="20" focusable="false"
-                 class="__web-inspector-hide-shortcut__">
-                <path d="M244.2 214.6l-54.4-54.4-1-.7a103 103 0 1 0-29.4 29.4l.8 1 54.4 54.3a21 21 0 0 0 29.6-29.6zm-141.3-44.5a67.2 67.2 0 1 1 0-134.4 67.2 67.2 0 0 1 0 134.4z"
-                      fill="#fff" fill-rule="evenodd" clip-rule="evenodd"></path>
-            </svg>
-        </button>
-    </form>
-</section>
-
-
-<!--===============================================================-->
-<!--========================= BUTTONS =============================-->
-<!--===============================================================-->
-<section>
-    <ul>
-        <li>
-            <button>Klusservice</button>
+<section style="padding: 0 15%">
+    <ul style="display: flex; margin: 10px; padding: 0; vertical-align: top; flex-wrap: wrap;">
+        <li style="margin: 0; padding: 10px;">
+            <img
+                    src="https://images.ctfassets.net/7k5qhlbm8iou/D5uGgqKonRXFAUmfnYsvO/2698fe82ddb8b8389ae85503e813ce85/GNL_klusadvies_thumbs_1.jpeg?fm=webp"
+                    alt="Image 1"
+                    style="min-width: 200px;">
         </li>
-        <li>
-            <button style="color: white; background-color: orange;">Acties en Aanbiedingen</button>
+        <li style="margin: 0; padding: 10px;">
+            <img
+                    src="https://images.ctfassets.net/7k5qhlbm8iou/OPjHPTf6Xz2SJlnmQ6Uub/6ce3c0354f3e570cf415b79f886b8826/GNL_klusadvies_thumbs_2.jpg?fm=webp"
+                    alt="Image 2"
+                    style="min-width: 200px;">
         </li>
-        <li>
-            <button style="color: white; background-color: rgb(0, 56, 120);">Folders</button>
-        </li>
-        <li>
-            <button>Gamma Voordeelpas</button>
+        <li style="margin: 0; padding: 10px;">
+            <img
+                    src="https://images.ctfassets.net/7k5qhlbm8iou/XYu7cwXV8Eyj14WHTbiBu/d0bea2a67ae20ab842df362808a0d39d/GNL_klusadvies_thumbs_3.jpg?fm=webp"
+                    alt="Image 3"
+                    style="min-width: 200px;">
         </li>
     </ul>
 </section>
-
-
-<!--===============================================================-->
-<!--======================= PHOTOS GRID in TABLE===================-->
-<!--===============================================================-->
-<section>
-
-    <table>
-        <tr>
-            <td colspan="3">
-                <img
-                        src="https://images.ctfassets.net/7k5qhlbm8iou/3IZAf9j2Dy9bM4DrZJ6Wcl/8fc60bfc334f696c28a37ab42c20b2a0/GNL_wk01_2024_HP_voordeelpas-1_desktop.png?fm=webp"
-                        alt="Image 1">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img src="https://images.ctfassets.net/7k5qhlbm8iou/3zOIpH8kBQzGbIUdal6rLo/7157a8dc629cafcf4158389e7e0eaca6/GNL_2024_wk03_HP_Flexa.jpg?fm=webp"
-                     alt="Image 2">
-            </td>
-            <td colspan="2">
-                <img src="https://images.ctfassets.net/7k5qhlbm8iou/39hnA52BKXbSoUa48lxgvr/66ea42a0c68f3fca6020b834455c2f00/GNL_wk04_2024_HP_altrex.jpg?fm=webp"
-                     alt="Image 3" style="margin-bottom: 20px; ">
-                <img src="https://images.ctfassets.net/7k5qhlbm8iou/1YTgGe0o1WRzphTQpx4ePT/81005e9411b733c48801a08363c8dfcf/GNL_wk04_2024_HP_schakelmateriaal.jpg?fm=webp"
-                     alt="Image 4">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img src="https://images.ctfassets.net/7k5qhlbm8iou/42Rw1htYY8gFrjdBFqxrAm/3445907ea5e01eff85016ca2021bc4b5/GNL_2024_wk03_HP_accuboormachine.jpg?fm=webp"
-                     alt="Image 5">
-            </td>
-            <td>
-                <img src="https://images.ctfassets.net/7k5qhlbm8iou/54rwrpLgd12XKrGkVfAYJV/7cde91fd605aa3bcb41eafe5ff797810/GNL_2024_wk03_HP_powerdek.jpg?fm=webp"
-                     alt="Image 6">
-            </td>
-            <td>
-                <img src="https://images.ctfassets.net/7k5qhlbm8iou/4km04sDDJgikBGhiMaY89E/18944129796c03ee706bde47937b904a/GNL_wk04_2024_HP_ruitensproeiervloeistof.jpg?fm=webp"
-                     alt="Image 7">
-            </td>
-        </tr>
-    </table>
-    <table style="background-color: white; border: none;">
-        <tr>
-            <td colspan="4">
-                <img
-                        src="https://images.ctfassets.net/7k5qhlbm8iou/1cBEpeUnHeq8czQPEq3xPe/bc875c53a0724adc3544910fa857e490/GNL2337_-_HP_-_banner_end_vdp.jpg?fm=webp">
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">
-                <img src="https://images.ctfassets.net/7k5qhlbm8iou/1NofHocB9x1m46NOi7NNId/6b09331ef8bb0c65347780f6eef903e3/GNL_wk04_2024_HP_minder-energieverbruik.jpg?fm=webp">
-            </td>
-            <td colspan="2">
-                <img src="https://images.ctfassets.net/7k5qhlbm8iou/40zMNxr6fmWrEVKiwBrlWR/09d6a84de9f874545f81fb8c4d9e2db3/GNL_wk04_2024_HP_lattenwand.jpg?fm=webp">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img src="https://images.ctfassets.net/7k5qhlbm8iou/0WtvUoZcYBAHqV6htx62m/5e7662c33faa18cb4076014d32fc988f/wk2139_KLUSSERVICE-DESKTOP.jpg?fm=webp">
-            </td>
-            <td>
-                <img src="https://images.ctfassets.net/7k5qhlbm8iou/2dUnFuayFtTVtZvR5qLuDu/1fc8e20d0b35e12f96fc9d3cd2a390cb/wk2139_KLANTENSERVICE-DESKTOP.jpg?fm=webp">
-            </td>
-            <td>
-                <img src="https://images.ctfassets.net/7k5qhlbm8iou/6iHrrOl5lgcJhFJcxJbg1v/87ef0c87500da5f353c3c45c38298b62/GNL_Icoon-voordeelpas_v2.jpeg?fm=webp">
-            </td>
-            <td>
-                <img src="https://images.ctfassets.net/7k5qhlbm8iou/5a8NDfQa8nQJ5SgC0bJVNT/16c2b63d82c2e708cfa3ace733c49987/GNL_alltijd-laag_icoon-HP.jpeg?fm=webp">
-            </td>
-        </tr>
-    </table>
-
-</section>
-
-
-<!--===============================================================-->
-<!--========================= CONTENT =============================-->
-<!--===============================================================-->
-<section>
-
-
-    <p>(1) M.u.v. kleurtesters, voorbehandeling, latex, witte muurverf en ALTIJD LAAG. Alle combinaties mogelijk. Bij
-        aankoop van 2 stuks ontvang je 50% korting op het totaalbedrag.</p>
-    <p>(2) Bij aankoop van 2 stuks ontvang je 25% korting op het totaalbedrag</p>
-
-    <p><strong>GAMMA bouwmarkten</strong><br>
-        Iedereen kan klussen, je kunt altijd meer dan je denkt! GAMMA helpt je woonsituatie te verbeteren, met adviezen,
-        tips, ideeën en inspiratie. Zo rond je elke klus met een trots gevoel af. Bij GAMMA vind je een enorm <a
-                href="https://www.gamma.nl/assortiment">assortiment</a> doe-het-zelf materialen, gereedschap,
-        decoratieve elementen voor huis en tuin en nog veel meer. Check op deze website de artikelvoorraad bij je <a
-                href="https://www.gamma.nl/bouwmarkten/zoek-op-kaart">GAMMA bouwmarkt</a> of <a
-                href="https://www.gamma.nl/assortiment">bestel direct online</a>.
-    </p>
-
-</section>
-<section>
-    <ul style="display: flex; margin: 0 10%; flex-wrap: wrap;">
-        <li>
-            <img src="https://gamma.nl/FE/e6bb8d7/images/gamma_nl/icons/png/ubr-check.png" alt="checkmark"
-                 style="width: 30px; margin-right: 10px;">
-            <a href="https://www.gamma.nl/assortiment">30.000 artikelen in de webshop</a>
+<section style="padding: 0 15%">
+    <ul style="display: flex; margin: 10px; padding: 0; vertical-align: top; flex-wrap: wrap;">
+        <li style="margin: 0; padding: 10px;">
+            <img
+                    src="https://images.ctfassets.net/7k5qhlbm8iou/1NDMQyYyDQUvRfaIp6PkJg/4a17d6366d7af17cf9940d95ebca9dfe/GNL_klusadvies_thumbs_4.jpeg?fm=webp"
+                    alt="Image 1"
+                    style="min-width: 200px;">
         </li>
-        <li>
-            <img src="https://gamma.nl/FE/e6bb8d7/images/gamma_nl/icons/png/ubr-check.png" alt="checkmark"
-                 style="width: 30px; margin-right: 10px;">
-            <a href="https://www.gamma.nl/klantenservice/bestellen-bezorgen/bezorgen">Kies je bezorgdag</a>
+        <li style="margin: 0; padding: 10px;">
+            <img
+                    src="https://images.ctfassets.net/7k5qhlbm8iou/7mpfk8e1ufFLA9bo4zqU5v/e6be2cabbd15b26c31ffcd30628e8d67/GNL_klusadvies_thumbs_5.jpg?fm=webp"
+                    alt="Image 2"
+                    style="min-width: 200px;">
         </li>
-        <li>
-            <img src="https://gamma.nl/FE/e6bb8d7/images/gamma_nl/icons/png/ubr-check.png" alt="checkmark"
-                 style="width: 30px; margin-right: 10px;">
-            <a href="https://www.gamma.nl/klantenservice/service-contact/voorraadcheck">Check de voorraad in 166
-                bouwmarkten</a>
+        <li style="margin: 0; padding: 10px;">
+            <img
+                    src="https://images.ctfassets.net/7k5qhlbm8iou/1pNZsihINzVNzqjM3rvKAl/516167ecc3eee568379bcd1e773bfe4f/GNL_klusadvies_thumbs_6.jpg?fm=webp"
+                    alt="Image 3"
+                    style="min-width: 200px;">
         </li>
     </ul>
-    <hr style="margin-bottom: 60px;">
 </section>
 
 
@@ -298,8 +286,8 @@
 <!--======================== Assortiment ==========================-->
 <!--===============================================================-->
 <section>
-    <nav id="myDropdown">
-        <sectionid="navBody">
+    <nav id="myDropdown" style="padding: 70px 0; overflow: scroll;">
+        <section style="background-color: white; border-radius: 16px; margin: 0 10%;" id="navBody">
             <p style="font-size: 30px; display: block; float: right; align-self: end; width: 40px; margin: 0; padding: 14px 18px; cursor: pointer"
                onclick="toggleDropdown()">×</p>
             <section style="padding-bottom: 20px;">
@@ -670,7 +658,7 @@
         </section>
     </nav>
 </section>
-</main>
+
 
 <!--===============================================================-->
 <!--========================== FOOTER =============================-->
@@ -848,9 +836,9 @@
                 <li>
                     <a href="#" style="text-decoration: none; margin: 0;">Prijsinformatie</a>
                 </li>
-                <li>
-                    <img style="width: 90px;" src="https://images.ctfassets.net/7k5qhlbm8iou/uWGHDlCGprOnKuAP1d5qj/1f5775fd6aa87935e8d6cb410afe60cd/thuiswinkelwaarborg_footericon.png">
-                    </img>
+                <li style="flex: none">
+                    <img style="width: 90px;"
+                         src="https://images.ctfassets.net/7k5qhlbm8iou/uWGHDlCGprOnKuAP1d5qj/1f5775fd6aa87935e8d6cb410afe60cd/thuiswinkelwaarborg_footericon.png"></img>
                 </li>
                 <li style="width: 20px; flex: none">
                     <a href="https://www.facebook.com/gamma.nl" target="_blank" rel="nofollow">
@@ -888,5 +876,6 @@
         </section>
     </section>
 </footer>
+
 </body>
 </html>
